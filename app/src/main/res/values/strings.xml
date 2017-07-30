@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Android TicTacToe</string>
+    <string name="human_first">You go first.</string>
+    <string name="human_turn">Your turn.</string>
+    <string name="computer_turn">Android\'s turn.</string>
+    <string name="result_tie">It\'s a tie.</string>
+    <string name="result_human_wins">You won!</string>
+    <string name="result_computer_wins">Android won!</string>
+    <string name="human">Human:  </string>
+    <string name="zero">0</string>
+    <string name="ties">Ties:  </string>
+    <string name="android">Android:  </string>
+    <string name="info">info</string>
+    <string name="quit_question">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="difficulty_choose">Choose a Difficulty Level</string>
+    <string name="ok">OK</string>s
+    <string name="cancel">Cancel</string>s
+    <string name="about_text">Tic Tac Toe Against Android.\n\nDifficulty Levels are:\n\nEasy: Android Picks Random move\nHarder: Winning move if available, otherwise random.\nExpert: Winning move if available, block Human winning move, otherwise random.</string>
+    <string name="new_game">New Game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="quit">Quit</string>
+    <string name="about">About game</string>
+    <string name="reset_scores">Reset Scores</string>
+    <string name="reset_scores_question">Do you want to reset all scores to 0?</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Harder</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="settings">Settings</string>
+    <string-array name="difficulty_levels">
+        <item>@string/difficulty_easy</item>
+        <item>@string/difficulty_harder</item>
+        <item>@string/difficulty_expert</item>
+    </string-array>
+    <string name="title_activity_download_image">DownloadImage</string>
+    <string name="downloading_image">Downloading Image From Web...</string>
+    <string name="no_network_connection">This device is currently not connected to the
+Internet...Image cannot be downloaded...</string>
+    <string name="url_loser">http://www.cs.utexas.edu/~scottm/cs371m/t6/loser_image.jpg</string>
+    <string name="url_winner">http://www.cs.utexas.edu/~scottm/cs371m/t6/winner_image.jpg</string>
+    <string name="url_tie">http://www.cs.utexas.edu/~scottm/cs371m/t6/tie_image.jpg</string>
+    <string name="download_complete">Download Complete</string>
+    <string name="winner_loser_tie_image">winner_loser_tie_image</string>
+
+
+</resources>
