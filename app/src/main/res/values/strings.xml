@@ -42,6 +42,12 @@ Internet...Image cannot be downloaded...</string>
     <string name="url_tie">http://www.cs.utexas.edu/~scottm/cs371m/t6/tie_image.jpg</string>
     <string name="download_complete">Download Complete</string>
     <string name="winner_loser_tie_image">winner_loser_tie_image</string>
+    <string name="step_counter">
+         android.hardware.sensor.stepcounter
+   </string>
+    <string name="step_detector">
+         android.hardware.sensor.stepdetector
+   </string>
 
 
 </resources>

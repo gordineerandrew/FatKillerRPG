@@ -18,7 +18,7 @@
         android:id="@+id/about_text"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:text="@string/about_text"
+        android:text="@string/step_counter"
         android:textSize="20sp"
         android:textStyle="bold" />
 </LinearLayout>

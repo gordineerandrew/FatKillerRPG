@@ -181,7 +181,7 @@ public class AndroidTicTacToe extends AppCompatActivity {
                 resetScoresDialogFragment.show(fm, "reset");
                 return true;
             case R.id.about:
-                startActivity(new Intent(this, AboutActivity.class));
+                startActivity(new Intent(this, StepCounterActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
