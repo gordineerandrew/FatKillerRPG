@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:gravity="center"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
 
@@ -17,16 +17,61 @@
 
     <Button
         android:id="@+id/btn_start"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start Pedometer"
-        />
+        android:text="Start Quest"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/craft4"
+        android:layout_toLeftOf="@+id/craft4"
+        android:layout_toStartOf="@+id/craft4" />
 
     <Button
         android:id="@+id/btn_stop"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop Pedometer"
-        />
+        android:text="Stop Quest "
+        android:layout_alignBaseline="@+id/btn_start"
+        android:layout_alignBottom="@+id/btn_start"
+        android:layout_toRightOf="@+id/craft4"
+        android:layout_toEndOf="@+id/craft4" />
 
-</LinearLayout>
+    <CheckBox
+        android:id="@+id/craft1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Craft1"
+        android:layout_below="@+id/tv_steps"
+        android:layout_centerHorizontal="true" />
+    <CheckBox
+        android:id="@+id/craft2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Craft2"
+        android:layout_alignTop="@+id/craft1"
+        android:layout_alignLeft="@+id/craft1"
+        android:layout_alignStart="@+id/craft1" />
+    <CheckBox
+        android:id="@+id/craft3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Craft3"
+        android:layout_alignTop="@+id/craft2"
+        android:layout_alignLeft="@+id/craft2"
+        android:layout_alignStart="@+id/craft2" />
+    <CheckBox
+        android:id="@+id/craft4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Craft4"
+        android:layout_alignTop="@+id/craft3"
+        android:layout_alignLeft="@+id/craft3"
+        android:layout_alignStart="@+id/craft3" />
+
+
+
+
+</RelativeLayout>
