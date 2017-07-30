@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:layout_above="@+id/QuestPlayer"
         />
 
 
@@ -39,9 +40,8 @@
         android:id="@+id/craft1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="140dp"
         android:text="Craft1"
-        android:layout_below="@+id/tv_steps"
         android:layout_centerHorizontal="true" />
     <CheckBox
         android:id="@+id/craft2"
@@ -71,7 +71,39 @@
         android:layout_alignLeft="@+id/craft3"
         android:layout_alignStart="@+id/craft3" />
 
+    <TextView
+        android:id="@+id/loot"
+        android:layout_width="120sp"
+        android:layout_height="90sp"
+        android:layout_below="@id/craft4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70sp"
+        android:text="TextView" />
 
+    <Button
+        android:id="@+id/CraftingPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/QuestPlayer"
+        android:text="Craft" />
+
+    <Button
+        android:id="@+id/QuestPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Quest" />
+
+    <Button
+        android:id="@+id/StatusPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/QuestPlayer"
+        android:layout_toRightOf="@+id/QuestPlayer"
+        android:text="Stats" />
 
 
 </RelativeLayout>
